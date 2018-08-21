@@ -28,14 +28,14 @@
   "homepage": "https://github.com/blockades/scuttle-dark-crystal#readme",
   "dependencies": {
     "scuttle-inject": "^1.0.3",
-    "scuttle-invite": "^1.0.1",
+    "scuttle-invite": "git+https://github.com/christianbundy/scuttle-invite.git#c4eb0b4a956927109eb176769570647fcc2d42b3",
     "secrets.js-grempe": "1.1.0",
     "ssb-dark-crystal-schema": "^1.1.0",
     "ssb-msg-content": "^1.0.1"
   },
   "devDependencies": {
     "scuttle-testbot": "^1.1.6",
-    "ssb-private": "^0.2.1",
+    "ssb-private": "^0.2.3",
     "ssb-query": "^2.1.0",
     "standard": "^11.0.1",
     "tap-diff": "^0.1.1",
